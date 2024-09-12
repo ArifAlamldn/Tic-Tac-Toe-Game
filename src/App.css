@@ -1,0 +1,32 @@
+.block-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+  grid-template-rows: repeat(3, 1fr);    /* Creates 3 rows */
+  width: 450px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  display: flex; /* Center content */
+  align-items: center; /* Center content */
+  justify-content: center; /* Center content */
+  font-size: 48px; /* Increased font size for better visibility */
+}
+
+
+
+.box.x {
+  color: red; /* Red color for X */
+}
+
+.box.o {
+  color: black; /* Black color for O */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
